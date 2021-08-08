@@ -1,0 +1,32 @@
+.card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #f7f7f7;
+    border-radius: 3px;
+    padding: 1.5rem;
+    padding-bottom: 3rem;
+    background-image: linear-gradient(to right bottom, rgb(156, 118, 216), #28b485);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 0.2s;
+    backface-visibility: hidden;
+}
+
+.card:hover{
+    transform: translateY(-3px) scale(1.03);
+}
+
+.card__photo{
+    display: block;
+    width: 85%;
+}
+
+.card__heading{
+    margin-top: 1.5rem;
+    font-size: 2rem;
+}
+
+.card__text{
+    font-size: 1.4rem;
+}
