@@ -23,7 +23,9 @@ body{
 
 }
 
-.App{}
+.App{
+  text-align: center;
+}
 
 .text{
   font-size: 6rem;
@@ -75,8 +77,3 @@ body{
     width: calc(3 * (100% - 3 * (var(--gutter-horizontal))) / 4 + 2 * var(--gutter-horizontal));
   }
 
-.cards-container{
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 3rem;
-}

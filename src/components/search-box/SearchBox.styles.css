@@ -1,0 +1,15 @@
+.search-box{
+    width: 25rem;
+    padding: 1.5rem 1rem;
+    border: none;
+    opacity: 0.7;
+    border-radius: 3px;
+    font-size: 1.6rem;
+    transition: all 0.2s;
+  }
+  .search-box:focus{
+    outline: none;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+  }
+  
+  .u-margin-bottom-medium{margin-bottom: 3rem!important;}
