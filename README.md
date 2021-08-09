@@ -1,3 +1,3 @@
 # A simple project using Reactjs
-Familiarity with basic concepts such as: class component and performance component
+Familiarity with basic concepts such as: class component, function component, state, props , ...
 ## See demo: <a href="https://arashalaei.github.io/monsters-rolodex/">Click</a>
